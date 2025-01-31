@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #edf0f2;
+}
+ 
+a:hover{
+    color: #332f2f;
+}
+
+
+
+/* Header Styles */
+header {
+    background-color: #305154;
+    color: #f7e0e0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #181a1c;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fffcfc;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #004d59;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(250, 246, 246);
+}
+
+section h2 {
+    color: #0e7db9;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+/* About Me Section */
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    background-color: #f1f1f1;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#projects strong {
+    color: #080909;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills li {
+    background-color: #171717;
+    color: #f1edeb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #202323;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #040303;
+    color: #fffbfb;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
